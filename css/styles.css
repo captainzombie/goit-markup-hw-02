@@ -1,8 +1,26 @@
+:root {
+	--hover-color: #2196F3;
+	--main-text-color: #212121;
+	--main-font: 14px;
+}
+
 body {
 	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	color: var(--main-text-color);
+	font-size: var(--main-font);
 }
 
-.list-item {
-	list-style-type: none;
+.nav a:hover {
+	background-color: var(--hover-color);
+	text-decoration: none;
 }
 
+.contacts-item:hover {
+	background-color: var(--hover-color);
+}
+
+.button-item:hover {
+	background-color: var(--hover-color);
+	cursor: pointer;
+}
