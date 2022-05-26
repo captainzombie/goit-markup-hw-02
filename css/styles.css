@@ -6,26 +6,32 @@
 
 body {
 	background-color: #FFFFFF;
-	font-family: 'Roboto' 'arial', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: var(--main-text-color);
 	font-size: var(--main-font);
 }
 
-.nav-link:hover {
-	background-color: var(--hover-color);
-	
+.main-btn:hover,
+.main-btn:focus {
+	background-color: #2196F3;
 }
 
-.nav-list {
-	list-style-type: none;
-
+.list {
+	list-style: none;
 }
 
-.contacts-item:hover {
-	background-color: var(--hover-color);
+.link {
+	text-decoration: none;
 }
 
-.button-item:hover {
+.nav-link:hover,
+.nav-link:focus {
+	background-color: var(--hover-color);	
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
 	background-color: var(--hover-color);
 	cursor: pointer;
 }
+

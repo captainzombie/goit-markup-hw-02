@@ -14,21 +14,21 @@
 <body>
 	<!-- Header -->
 	<header>
-		<a href="./index.html">WebStudio</a>
+		<a href="./index.html" class="logo">WebStudio</a>
 		<nav class="nav">
-			<ul class="nav-list">
+			<ul class="nav-list list">
 				<li class="nav-item">
-					<a href="#" class="nav-link">Студия</a>
+					<a href="#" class="nav-link link">Студия</a>
 				</li>
 				<li class="nav-item">
-					<a href="./portfolio.html" class="nav-link">Портфолио</a>
+					<a href="./portfolio.html" class="nav-link link">Портфолио</a>
 				</li>
 				<li class="nav-item">
-					<a href="#" class="nav-link">Контакты</a>
+					<a href="#" class="nav-link link">Контакты</a>
 				</li>
 			</ul>
 		</nav>
-		<ul class="contacts">
+		<ul class="contacts list">
 			<li>
 				<a href="mailto:info@devstudio.com" class="contacts-item">info@devstudio.com</a>
 			</li>
@@ -38,63 +38,65 @@
 		</ul>
 	
 	</header>
-
-	<main>
+	<!--Main-->
+	<main> 	
+		<!--Filter-->
 		<section>
-			<ul class="button-list">
-				<li><button type="button" class="button-item">Все</button></li>
-				<li><button type="button" class="button-item">Веб-сайты</button></li>
-				<li><button type="button" class="button-item">Приложения</button></li>
-				<li><button type="button" class="button-item">Дизайн</button></li>
-				<li><button type="button" class="button-item">Маркетинг</button></li>
+			<ul class="filter-list list">
+				<li class="filter-item"><button type="button" class="filter-btn">Веб-сайты</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Приложения</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Дизайн</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Маркетинг</button></li>
+				<li class="filter-item"><button type="button" class="filter-btn">Все</button></li>
 			</ul>
 		</section>
-		<section>
-			<ul class="list-item list">
-				<li>
+		<!--Work examples-->
+		<section class="examples">
+			<ul class="examples-list list">
+				<li class="examples-item">
 					<img src="./images/portfolio1.jpg" alt="Ноутбук с вэб-сайтом" width="370">
-					<h3>Технокряк</h3>
-					<p>Веб-сайт</p>
+					<h3 class="examples-title">Технокряк</h3>
+					<p class="examples-text">Веб-сайт</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio2.jpg" alt="Постер" width="370">
-					<h3>Постер New Orlean vs Golden Star</h3>
-					<p>Дизайн</p>
+					<h3 lang="en" class="examples-title">Постер New Orlean vs Golden Star</h3>
+					<p class="examples-text">Дизайн</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio3.jpg" alt="Логотип ресторана" width="370">
-					<h3>Ресторан Seafood</h3>
-					<p>Приложение</p>
+					<h3 lang="en" class="examples-title">Ресторан Seafood</h3>
+					<p class="examples-text">Приложение</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio4.jpg" alt="Наушники" width="370">
-					<h3>Проект Prime</h3>
-					<p>Маркетинг</p>
+					<h3 lang="en" class="examples-title">Проект Prime</h3>
+					<p class="examples-text">Маркетинг</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio5.jpg" alt="Коробки" width="370">
-					<h3>Проект Boxes</h3>
+					<h3 lang="en" class="examples-title">Проект Boxes</h3>
 					<p>Приложение</p>	
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio6.jpg" alt="Монитор" width="370">
-					<h3>Inspiration has no Borders</h3>
-					<p>Веб-сайт</p>
+					<h3 lang="en" class="examples-title">Inspiration has no Borders</h3>
+					<p class="examples-text">Веб-сайт</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio7.jpg" alt="Книга" width="370">
-					<h3>Издание Limited Edition</h3>
-					<p>Дизайн</p>
+					<h3 lang="en" class="examples-title">Издание Limited Edition</h3>
+					<p class="examples-text">Дизайн</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio8.jpg" alt="Бирка" width="370">>
-					<h3>Проект LAB</h3>
-					<p>Маркетинг</p>
+					<h3 lang="en" class="examples-title">Проект LAB</h3>
+					<p class="examples-text">Маркетинг</p>
 				</li>
-				<li>
+				<li class="examples-item">
 					<img src="./images/portfolio9.jpg" alt="Разработка приложений" width="370">>
-					<h3>Growing Business</h3>
-					<p>Приложение</p>
+					<h3 lang="en" class="examples-title">Growing Business</h3>
+					<p class="examples-text">Приложение</p>
 				</li>
 			</ul>
 		</section>
@@ -102,15 +104,15 @@
 
 		<!-- Footer -->
 		<footer>
-			<a href="#">WebStudio</a>
-			<address>
+			<a href="./index.html" class="logo">WebStudio</a>
+			<address class="address">
 				г. Киев, пр-т Леси Украинки, 26
 			</address>
-			<ul>
-				<li> 
+			<ul class="contacts-list list">
+				<li class="contacts-item"> 
 					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
-				<li>
+				<li class="contacts-item">
 					<a href="tel:+380961111111">+38 096 111 11 11</a>
 				</li>
 			</ul>
