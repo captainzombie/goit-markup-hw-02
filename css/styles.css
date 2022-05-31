@@ -52,10 +52,6 @@ body {
 
 /*---------header---------*/
 
-.nav-list a.nav-link {
-	pointer-events: painted;
-}
-
 .link {
 	font-weight: 500;
 		font-size: 14px;
@@ -71,6 +67,11 @@ color: #757575;
 
 .contacts-link {
 	color: #757575;
+	font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
 }
 
 .hero-btn:hover,
@@ -88,6 +89,14 @@ color: #757575;
 	background-color: var(--hover-color);
 }
 
+.nav-link {
+	font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.43;
+		letter-spacing: 0.02em;
+		color: #000000;
+}
 
 /*---------hero---------*/
 
@@ -102,14 +111,20 @@ color: #757575;
 		text-align: center;
 		letter-spacing: 0.06em;
 		color: #FFFFFF;
+		text-transform: uppercase;
 }
 
 .hero-btn {
-	margin-left: 732px;
-	width: 200px;
-	height: 50px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	background-color: var(--hover-color);
+	color: #FFFFFF;
 }
-
 
 /*---------benefits---------*/
 
@@ -118,6 +133,7 @@ color: #757575;
 		font-size: 14px;
 		line-height: 1.14;
 		letter-spacing: 0.03em;
+		text-transform: uppercase;
 }
 
 .benefits-text {
@@ -156,7 +172,7 @@ color: #757575;
 /*---------footer---------*/
 
 .address {
-	font-weight: 400px;
+	font-weight: 400;
 		font-size: 14px;
 		line-height: 1.71;	
 		letter-spacing: 0.03em;
@@ -177,6 +193,11 @@ color: #757575;
 .filter-btn {
 	cursor: pointer;
 	font-family: inherit;
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 1.62;
+		text-align: center;
+		letter-spacing: 0.03em;
 }
 
 /*---------work-examples---------*/
@@ -193,4 +214,5 @@ color: #757575;
 		font-size: 16px;
 		line-height: 1.88;
 		letter-spacing: 0.03em;
+		color:  var(--text-color);
 }
